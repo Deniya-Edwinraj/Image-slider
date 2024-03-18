@@ -4,7 +4,7 @@ body{
 }
 
 /* full  view */
-/* .container{
+.container{
     position: absolute;
     left:50%;
     top:50%;
@@ -14,7 +14,7 @@ body{
     padding:0px;
     background-color: #f5f5f5;
     box-shadow: 0 30px 50px #dbdbdb;
-} */
+}
 #slide{
     width:max-content;
     margin-top:50px;
@@ -124,6 +124,7 @@ body{
     height:50px;
     border-radius: 50%;
     /* border:1px solid #2e2727; */
+    border: 2px solid #000;
     transition: 0.5s;
 }.buttons button:hover{
     background-color: #a7a7a7;
